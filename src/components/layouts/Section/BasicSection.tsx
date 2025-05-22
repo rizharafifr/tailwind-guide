@@ -5,6 +5,7 @@ import SectionHeading from "./SectionHeading";
 import CodeBlocks from "@/components/CodeBlocks";
 import ConceptCard from "@/components/Cards/ConceptCard";
 import TailwindTabs from "@/components/Tabs/TailwindTabs";
+import InstallationCard from "@/components/Cards/InstallationCard";
 
 const BasicSection = () => {
   return (
@@ -24,41 +25,7 @@ const BasicSection = () => {
               designs directly in your markup. Here's how to set it up with
               Next.js:
             </p>
-
-            {/* Installation */}
-            <CodeBlocks
-              title="Installation"
-              language="bash"
-              code="npm install -D tailwindcss postcss autoprefixer
-              npx tailwindcss init -p"
-            />
-            {/* End Installation */}
-            {/* Tailwind Config */}
-            <CodeBlocks
-              title="tailwind.config.js"
-              language="javascript"
-              code={`module.exports = {
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}`}
-            />
-            {/* End Tailwind Config */}
-            {/* Global Styles */}
-            <CodeBlocks
-              title="globals.css"
-              language="css"
-              code={`@tailwind base;
-@tailwind components;
-@tailwind utilities;`}
-            />
-            {/* End Global Styles */}
+            <InstallationCard />
           </div>
           {/* End Getting Started */}
 
