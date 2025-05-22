@@ -2,14 +2,13 @@
 
 import React from "react";
 import SectionHeading from "./SectionHeading";
-import CodeBlocks from "@/components/CodeBlocks";
 import ConceptCard from "@/components/Cards/ConceptCard";
 import TailwindTabs from "@/components/Tabs/TailwindTabs";
 import InstallationCard from "@/components/Cards/InstallationCard";
 
 const BasicSection = () => {
   return (
-    <section id="basics" className="py-16 md:py-24">
+    <section id="basics" className="py-4 md:py-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           title="Tailwind CSS Basics"

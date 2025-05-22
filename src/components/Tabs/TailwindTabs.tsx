@@ -5,7 +5,7 @@ import CodeBlocks from "../CodeBlocks";
 
 const TailwindTabs = () => {
   return (
-    <Tabs>
+    <Tabs defaultValue="layout" className="w-full">
       {/* Tab List */}
       <TabsList className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 mb-6">
         <TabsTrigger value="layout">Layout</TabsTrigger>
