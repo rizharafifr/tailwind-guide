@@ -200,7 +200,7 @@ const ComponentTabsContent = () => {
               </div>
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 rounded-full bg-blue-500"></div>
-                <p>Show the person's name and role/company</p>
+                <p>Show the person name and role/company</p>
               </div>
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 rounded-full bg-blue-500"></div>
@@ -241,8 +241,8 @@ const ComponentTabsContent = () => {
                     </div>
                   </div>
                   <p className="italic text-muted-foreground">
-                    "This product has completely transformed our workflow. We've
-                    seen a 30% increase in productivity since implementing it."
+                    This product has completely transformed our workflow. Weve
+                    seen a 30% increase in productivity since implementing it.
                   </p>
                   <div className="flex mt-4">
                     {[...Array(5)].map((_, i) => (

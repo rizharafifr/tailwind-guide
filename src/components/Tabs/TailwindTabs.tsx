@@ -2,10 +2,18 @@ import React from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 import CodeBlocks from "../CodeBlocks";
+import { useTabs } from "@/hooks/useTabs";
 
 const TailwindTabs = () => {
+  const { activeTab, setActiveTab, isHydrated } = useTabs(
+    "layout-tailwind",
+    "layout"
+  );
+
+  if (!isHydrated) return null;
+
   return (
-    <Tabs defaultValue="layout" className="w-full">
+    <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
       {/* Tab List */}
       <TabsList className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 mb-6">
         <TabsTrigger value="layout">Layout</TabsTrigger>

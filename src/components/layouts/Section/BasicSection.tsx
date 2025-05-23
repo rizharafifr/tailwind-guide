@@ -21,7 +21,7 @@ const BasicSection = () => {
             <h3 className="text-2xl font-semibold mb-4">Getting Started</h3>
             <p className="text-muted-foreground mb-6">
               Tailwind is a utility-first CSS framework that allows you to build
-              designs directly in your markup. Here's how to set it up with
+              designs directly in your markup. Here how to set it up with
               Next.js:
             </p>
             <InstallationCard />
