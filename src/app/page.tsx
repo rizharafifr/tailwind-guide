@@ -4,6 +4,7 @@ import BasicSection from "@/components/layouts/Section/BasicSection";
 import ComponentsSection from "@/components/layouts/Section/ComponentsSection";
 import ResponsiveSection from "@/components/layouts/Section/ResponsiveSection";
 import Footer from "@/components/Footer/Footer";
+import ResourcesSection from "@/components/layouts/Section/ResourcesSection";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <BasicSection />
       <ComponentsSection />
       <ResponsiveSection />
+      <ResourcesSection />
       <Footer />
     </main>
   );

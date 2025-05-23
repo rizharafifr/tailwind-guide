@@ -3,7 +3,6 @@ const NAV_ITEMS = [
   { name: "Basics", href: "/#basics" },
   { name: "Components", href: "/#components" },
   { name: "Responsive", href: "/#responsive" },
-  { name: "Advanced", href: "/#advanced" },
   { name: "Resources", href: "/#resources" },
   { name: "Playground", href: "/playground" },
 ];
