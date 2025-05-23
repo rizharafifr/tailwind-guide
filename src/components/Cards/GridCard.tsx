@@ -1,5 +1,4 @@
 import React from "react";
-import CodeBlocks from "../CodeBlocks";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 import HtmlTag from "@/hooks/useHtmlTag";
 
@@ -26,7 +25,7 @@ const GridCard = () => {
           {/* End Preview */}
 
           {/* Code Blocks */}
-          <pre className="bg-gray-700 rounded-md p-4 text-sm font-mono text-white">
+          <pre className="bg-gray-700 mt-4 rounded-md p-4 text-sm font-mono text-white overflow-auto min-h-[120px] max-h-[400px]">
             <code>
               <HtmlTag
                 tag="div"

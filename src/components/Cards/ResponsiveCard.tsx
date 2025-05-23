@@ -33,7 +33,7 @@ const ResponsiveCard = () => {
           </div>
 
           {/* Code block */}
-          <pre className="bg-gray-700 mt-4 rounded-md p-4 text-sm font-mono text-white">
+          <pre className="bg-gray-700 mt-4 rounded-md p-4 text-sm font-mono text-white overflow-auto min-h-[120px] max-h-[400px]">
             <code>
               <HtmlTag tag="p" className="text-sm ...">
                 Eyes on me - Faye Song ...

@@ -1,15 +1,15 @@
 import React from "react";
-import { TabsContent } from "@radix-ui/react-tabs";
 import { Card, CardContent } from "../ui/card";
 import { Button } from "../ui/button";
 import CodeBlocks from "../CodeBlocks";
+import { TabsContent } from "../ui/tabs";
 
 const ComponentTabsContent = () => {
   return (
     <div className="space-y-8">
       {/* Hero Section */}
       <TabsContent value="hero" className="space-y-8">
-        <div className="grid md:grid-cols-2 gap-8 items-center">
+        <div className="grid md:grid-cols-2 gap-8 items-start">
           <div>
             <h3 className="text-2xl font-semibold mb-4">Hero Sections</h3>
             <p className="text-muted-foreground mb-6">
@@ -79,7 +79,7 @@ const ComponentTabsContent = () => {
 
       {/* Features Section */}
       <TabsContent value="features" className="space-y-8">
-        <div className="grid md:grid-cols-2 gap-8 items-center">
+        <div className="grid md:grid-cols-2 gap-8 items-start">
           <div>
             <h3 className="text-2xl font-semibold mb-4">Feature Sections</h3>
             <p className="text-muted-foreground mb-6">
@@ -183,7 +183,7 @@ const ComponentTabsContent = () => {
 
       {/* Testimonials Section */}
       <TabsContent value="testimonials" className="space-y-8">
-        <div className="grid md:grid-cols-2 gap-8 items-center">
+        <div className="grid md:grid-cols-2 gap-8 items-start">
           <div>
             <h3 className="text-2xl font-semibold mb-4">
               Testimonial Sections
@@ -285,7 +285,7 @@ const ComponentTabsContent = () => {
 
       {/* Call To Action Section */}
       <TabsContent value="cta" className="space-y-8">
-        <div className="grid md:grid-cols-2 gap-8 items-center">
+        <div className="grid md:grid-cols-2 gap-8 items-start">
           <div>
             <h3 className="text-2xl font-semibold mb-4">
               Call to Action Sections
