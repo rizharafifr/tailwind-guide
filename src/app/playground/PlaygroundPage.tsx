@@ -1,5 +1,6 @@
 "use client";
 
+import BorderRadiusPlayground from "@/components/layouts/Playground/BorderRadiusPlayground";
 import PositionPlayground from "@/components/layouts/Playground/PositionPlayground";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useTabs } from "@/hooks/useTabs";
@@ -14,7 +15,7 @@ const PlaygroundPage = () => {
   if (!isHydrated) return null;
 
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen pt-24 bg-background">
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-4xl font-bold mb-8">Tailwind CSS Playground</h1>
 
@@ -33,6 +34,12 @@ const PlaygroundPage = () => {
             <PositionPlayground />
           </TabsContent>
           {/* End Content Position */}
+
+          {/* Content BorderRadius */}
+          <TabsContent value="border-radius">
+            <BorderRadiusPlayground />
+          </TabsContent>
+          {/* End Content BorderRadius */}
         </Tabs>
       </div>
     </main>

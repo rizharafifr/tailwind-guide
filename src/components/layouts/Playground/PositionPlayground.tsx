@@ -62,7 +62,7 @@ const PositionPlayground = () => {
 
           <div className="relative h-[600px] border rounded-lg p-4 overflow-auto bg-white">
             <div className="mb-4">
-              <p className="text-muted-foreground">
+              <p className="text-gray-600">
                 Scroll container untuk melihat efek dari <code>fixed</code> atau{" "}
                 <code>sticky</code>.
               </p>
@@ -86,7 +86,7 @@ const PositionPlayground = () => {
                 </div>
               ))}
 
-              <div className="h-[800px] bg-muted/30 rounded flex items-center justify-center mt-4 text-sm text-muted-foreground">
+              <div className="h-[800px] bg-muted/30 rounded flex items-center justify-center mt-4 text-sm text-gray-600">
                 Scroll Area Placeholder
               </div>
             </div>
