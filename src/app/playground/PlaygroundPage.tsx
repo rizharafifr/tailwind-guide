@@ -1,6 +1,7 @@
 "use client";
 
 import BorderRadiusPlayground from "@/components/layouts/Playground/BorderRadiusPlayground";
+import FlexboxPlayground from "@/components/layouts/Playground/FlexboxPlayground";
 import PositionPlayground from "@/components/layouts/Playground/PositionPlayground";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useTabs } from "@/hooks/useTabs";
@@ -27,6 +28,7 @@ const PlaygroundPage = () => {
           <TabsList>
             <TabsTrigger value="position">Position</TabsTrigger>
             <TabsTrigger value="border-radius">Border Radius</TabsTrigger>
+            <TabsTrigger value="flexbox">Flexbox</TabsTrigger>
           </TabsList>
 
           {/* Content Position */}
@@ -40,6 +42,12 @@ const PlaygroundPage = () => {
             <BorderRadiusPlayground />
           </TabsContent>
           {/* End Content BorderRadius */}
+
+          {/* Content Flexbox */}
+          <TabsContent value="flexbox">
+            <FlexboxPlayground />
+          </TabsContent>
+          {/* End Content Flexbox */}
         </Tabs>
       </div>
     </main>
