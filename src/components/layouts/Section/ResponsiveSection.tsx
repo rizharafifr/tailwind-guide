@@ -31,7 +31,7 @@ const ResponsiveSection = () => {
           <div>
             <h3 className="text-2xl font-semibold mb-4">Responsive Pattern</h3>
             <p className="text-muted-foreground mb-6">
-              Common responsive patterns using Tailwind's utility classes.
+              Common responsive patterns using Tailwind&apos;s utility classes.
             </p>
             <div className="space-y-6">
               <GridCard />

@@ -63,8 +63,9 @@ const ResourcesSection = () => {
                   Ready to Build Your Landing Page?
                 </h3>
                 <p className="text-lg mb-6 opacity-90">
-                  Now that you've learned the essentials of Tailwind CSS for
-                  landing pages, it's time to build your own stunning design!
+                  Now that you&apos;ve learned the essentials of Tailwind CSS
+                  for landing pages, it&apos;s time to build your own stunning
+                  design!
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button

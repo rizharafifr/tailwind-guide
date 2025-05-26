@@ -15,9 +15,9 @@ const HtmlTag: FC<HtmlTagProps> = ({ tag, className, children }) => {
         <>
           <span className="text-[#7cdcfe]"> class</span>
           <span className="text-white">=</span>
-          <span className="text-orange-400">"</span>
+          <span className="text-orange-400">&quot;</span>
           <span className="text-orange-400">{className}</span>
-          <span className="text-orange-400">"</span>
+          <span className="text-orange-400">&quot;</span>
         </>
       )}
       <span className="text-[#7aa2f7]">&gt;</span>
